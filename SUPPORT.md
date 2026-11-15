@@ -18,7 +18,7 @@
 
 ## 问题与需求 / Bugs and feature requests
 
-可复现的插件问题和功能建议请提交到 [GitHub Issues](https://github.com/lvyrana/papermind-zotero/issues/new/choose)。Bug 表单会要求：
+可复现的插件问题和功能建议请提交到 [GitHub Issues](https://github.com/lvyrana/litfinch-zotero/issues/new/choose)。Bug 表单会要求：
 
 - 研雀插件版本；
 - Zotero 版本和操作系统；
@@ -29,7 +29,7 @@
 
 维护规则：新 Issue 目标在 2 个工作日内确认收到并完成第一次分流；需要更多材料时写清缺什么，确认是问题时关联修复版本或 PR，需要作者取舍时标明待决定事项。每周维护还会清点本周新增、仍未关闭和超过 7 天没有维护者响应的 Issue，防止漏看。该时限是维护目标，不代表问题会在 2 个工作日内修复。
 
-Please use [GitHub Issues](https://github.com/lvyrana/papermind-zotero/issues/new/choose) for reproducible bugs and feature requests. The maintainer aims to acknowledge and triage new issues within two working days. The weekly review also checks new, open and unanswered-for-more-than-seven-days issues as a backstop.
+Please use [GitHub Issues](https://github.com/lvyrana/litfinch-zotero/issues/new/choose) for reproducible bugs and feature requests. The maintainer aims to acknowledge and triage new issues within two working days. The weekly review also checks new, open and unanswered-for-more-than-seven-days issues as a backstop.
 
 不要附加受版权保护的 PDF，也不要提交个人链接、设备 ID、API 密钥、患者信息或未公开敏感资料。涉及安全漏洞时不要创建公开 Issue，改用下方私密入口。
 
@@ -41,4 +41,4 @@ Server records, account ownership/sessions, local `papermind-reading/` files, ex
 
 ## Security reports
 
-安全漏洞必须通过仓库的 [私密安全报告](https://github.com/lvyrana/papermind-zotero/security/advisories/new) 提交，流程见 [SECURITY.md](SECURITY.md)。周检只核对私密入口是否仍可用，不复制或汇总漏洞详情。
+安全漏洞必须通过仓库的 [私密安全报告](https://github.com/lvyrana/litfinch-zotero/security/advisories/new) 提交，流程见 [SECURITY.md](SECURITY.md)。周检只核对私密入口是否仍可用，不复制或汇总漏洞详情。

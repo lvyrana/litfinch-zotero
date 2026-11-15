@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: 私密安全报告 / Private security report
-    url: https://github.com/lvyrana/papermind-zotero/security/advisories/new
+    url: https://github.com/lvyrana/litfinch-zotero/security/advisories/new
     about: 安全漏洞请私密提交；不要在公开 Issue 中披露密钥或个人数据。 / Report vulnerabilities privately; do not disclose secrets or personal data in public Issues.

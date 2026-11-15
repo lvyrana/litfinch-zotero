@@ -4,7 +4,7 @@
 
 当前版本 **0.10.0**，支持 Zotero 7—10。
 
-[下载安装包](https://github.com/lvyrana/papermind-zotero/releases/latest) · [版本说明](RELEASE_NOTES.md) · [隐私说明](PRIVACY.md) · [网站与样例](https://papermindapp.com/welcome)
+[下载安装包](https://github.com/lvyrana/litfinch-zotero/releases/latest) · [版本说明](RELEASE_NOTES.md) · [隐私说明](PRIVACY.md) · [网站与样例](https://papermindapp.com/welcome)
 
 <img src="docs/screenshots/reading-card-20261030.png" alt="研雀阅读台：分区标签、按时间排列的带读与追问、底部的带读按钮和输入框" width="390">
 
@@ -41,7 +41,7 @@
 
 ## 安装
 
-1. 在 [Releases](https://github.com/lvyrana/papermind-zotero/releases/latest) 下载 `papermind-connector.xpi`。
+1. 在 [Releases](https://github.com/lvyrana/litfinch-zotero/releases/latest) 下载 `papermind-connector.xpi`。
 2. Zotero →「工具」→「插件」→ 右上角齿轮 →「从文件安装插件」，选择下载的文件。
 3. 打开一篇带 PDF 的文献，点击顶部工具栏的「研雀」打开阅读台。
 

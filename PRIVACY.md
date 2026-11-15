@@ -28,6 +28,6 @@ Codex 使用官方 CLI app-server 和官方 ChatGPT 登录，额度属于本人�
 
 默认公共站的插件入口打开本地阅读台。连接自建研雀服务的使用者主动导入时，所选文献元数据与 PDF 发送到自己的服务。
 
-[安全反馈](SECURITY.md) · [版本说明](RELEASE_NOTES.md) · [0.7.1 历史政策](https://github.com/lvyrana/papermind-zotero/blob/v0.7.1/PRIVACY.md)
+[安全反馈](SECURITY.md) · [版本说明](RELEASE_NOTES.md) · [0.7.1 历史政策](https://github.com/lvyrana/litfinch-zotero/blob/v0.7.1/PRIVACY.md)
 
 **English summary:** Reading records stay in the user's Zotero profile. Personal API requests go directly to the selected provider; Codex uses its official app-server and the user's ChatGPT subscription. Reading backups contain reading records only. Legacy website records remain accessible through the original account. Self-hosted connections retain their explicit upload flow.
