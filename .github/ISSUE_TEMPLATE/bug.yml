@@ -1,47 +1,50 @@
-name: Bug report
-description: Report a reproducible PaperMind Connector problem
+name: Bug 反馈 / Bug report
+description: 报告可复现的研雀插件问题 / Report a reproducible LitFinch problem
 title: "[Bug] "
 labels:
   - bug
 body:
   - type: markdown
     attributes:
-      value: Do not include personal links, device IDs, API keys, PDFs or patient information. Report security vulnerabilities privately instead.
+      value: |
+        请勿提交个人链接、设备 ID、API 密钥、PDF、患者信息或未公开敏感资料。安全漏洞请使用私密安全报告入口。
+        Do not include personal links, device IDs, API keys, PDFs, patient information or unpublished sensitive data. Report security vulnerabilities privately.
   - type: input
     id: connector-version
     attributes:
-      label: Connector version
-      placeholder: 0.3.0
+      label: 研雀插件版本 / LitFinch version
+      placeholder: 0.10.0
     validations:
       required: true
   - type: input
     id: zotero-version
     attributes:
-      label: Zotero version
-      placeholder: 9.0.6
+      label: Zotero 版本 / Zotero version
+      placeholder: 10.0.6
     validations:
       required: true
   - type: input
     id: operating-system
     attributes:
-      label: Operating system
-      placeholder: macOS 15 / Windows 11 / Linux
+      label: 操作系统 / Operating system
+      placeholder: macOS 26 / Windows 11 / Linux
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Reproduction steps
-      placeholder: Describe what you selected, clicked and observed without including paper content.
+      label: 复现步骤 / Reproduction steps
+      description: 从打开哪一项开始，依次写明选择、点击和看到的结果；不要粘贴论文正文。
+      placeholder: 1. 打开…… / Open…
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
+      label: 期望结果 / Expected behavior
     validations:
       required: true
   - type: textarea
     id: error
     attributes:
-      label: Non-sensitive error message
+      label: 不含敏感信息的报错 / Non-sensitive error message
