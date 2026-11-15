@@ -2,7 +2,7 @@
 
 ## 新版试用常见问题
 
-本节对应 0.7.1，已在 macOS / Zotero 9.0.6 验收账号登录、重启、退出及网页 PDF 导入。旧 0.3.0 只有网页导入入口；安装与连接见 [README](README.md#安装与连接)。其他系统尚未原生验收，反馈请注明平台。
+本节对应当前正式版 0.10.0。已在 macOS / Zotero 10.0.6 使用当前内容构建验证主要阅读入口；完整的个人 AI 生成、卡片/汇报、导出、恢复和重启保留仍需按发布记录逐项验收。旧 0.3.0 只有网页导入入口；安装与连接见 [README](README.md#安装与连接)。Windows 与 Linux 尚未原生验收，反馈请注明平台。
 
 | 问题 | 处理方式 |
 |---|---|
@@ -16,17 +16,22 @@
 
 一条消息即可反馈：入口与版本、最后一个操作、期望结果、实际提示、系统及 Zotero 版本、大致时间。截图裁剪到必要区域；不要为复现问题反复切换账号或公开完整文献。
 
-## Bug reports
+## 问题与需求 / Bugs and feature requests
 
-Use GitHub Issues for reproducible plugin bugs and feature suggestions. Include:
+可复现的插件问题和功能建议请提交到 [GitHub Issues](https://github.com/lvyrana/papermind-zotero/issues/new/choose)。Bug 表单会要求：
 
-- LitFinch for Zotero version;
-- Zotero version;
-- operating system;
-- whether the failure happens during connection, metadata upload, PDF upload or browser opening;
-- concise reproduction steps and the exact non-sensitive error message.
+- 研雀插件版本；
+- Zotero 版本和操作系统；
+- 问题发生在哪个阅读操作；
+- 简短复现步骤和期望结果；如界面显示报错，再附上不含敏感信息的准确文字。
 
-Do not attach copyrighted PDFs or include personal links, device IDs, API keys, patient information or unpublished sensitive data.
+功能建议表单不要求先判断版本或复现 Bug，只需说明实际阅读问题、建议怎样改，以及现在是否有绕过方法。
+
+维护规则：新 Issue 目标在 2 个工作日内确认收到并完成第一次分流；需要更多材料时写清缺什么，确认是问题时关联修复版本或 PR，需要作者取舍时标明待决定事项。每周维护还会清点本周新增、仍未关闭和超过 7 天没有维护者响应的 Issue，防止漏看。该时限是维护目标，不代表问题会在 2 个工作日内修复。
+
+Please use [GitHub Issues](https://github.com/lvyrana/papermind-zotero/issues/new/choose) for reproducible bugs and feature requests. The maintainer aims to acknowledge and triage new issues within two working days. The weekly review also checks new, open and unanswered-for-more-than-seven-days issues as a backstop.
+
+不要附加受版权保护的 PDF，也不要提交个人链接、设备 ID、API 密钥、患者信息或未公开敏感资料。涉及安全漏洞时不要创建公开 Issue，改用下方私密入口。
 
 ## Data deletion
 
@@ -36,4 +41,4 @@ Server records, account ownership/sessions, local `papermind-reading/` files, ex
 
 ## Security reports
 
-Potential vulnerabilities must be reported privately through the repository's **Report a vulnerability** form as described in [SECURITY.md](SECURITY.md).
+安全漏洞必须通过仓库的 [私密安全报告](https://github.com/lvyrana/papermind-zotero/security/advisories/new) 提交，流程见 [SECURITY.md](SECURITY.md)。周检只核对私密入口是否仍可用，不复制或汇总漏洞详情。

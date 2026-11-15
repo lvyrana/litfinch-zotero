@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-Security fixes are provided for the latest published `0.3.x` version during the current public beta. Older development builds are not supported.
+Security fixes are provided for the latest published release during the current public beta. The current release is `0.10.0`; superseded releases and untagged development builds are not supported.
 
 ## Reporting a vulnerability
 

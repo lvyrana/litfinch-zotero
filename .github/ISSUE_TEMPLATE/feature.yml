@@ -1,23 +1,26 @@
-name: Feature request
-description: Suggest an improvement to the Zotero reading workflow
+name: 功能建议 / Feature request
+description: 提议改进 Zotero 阅读流程 / Suggest an improvement to the Zotero reading workflow
 title: "[Feature] "
 labels:
   - enhancement
 body:
+  - type: markdown
+    attributes:
+      value: 请描述实际阅读场景，不要提交论文正文、患者信息、个人链接或账号凭据。 / Describe the reading scenario without sharing paper text, patient data, personal links or credentials.
   - type: textarea
     id: problem
     attributes:
-      label: Reading problem
-      description: Describe the workflow friction before proposing a feature.
+      label: 遇到的阅读问题 / Reading problem
+      description: 先写当前流程在哪里费时、容易中断或无法完成，再提出功能。
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: Suggested change
+      label: 建议怎样改 / Suggested change
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Current workaround
+      label: 现在怎样绕过 / Current workaround
